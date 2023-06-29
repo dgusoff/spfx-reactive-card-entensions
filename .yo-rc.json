@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "16.19.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "spfx-adaptive-cards",
+    "libraryId": "38b43fef-b35c-4619-9e6c-787e5296572b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-adaptive-cards",
+    "solutionShortDescription": "spfx-adaptive-cards description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "adaptiveCardExtension",
+    "aceTemplateType": "Basic"
+  }
+}

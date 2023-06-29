@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-adaptive-card-extension": {
+      "components": [
+        {
+          "entrypoint": "./lib/adaptiveCardExtensions/helloWorld/HelloWorldAdaptiveCardExtension.js",
+          "manifest": "./src/adaptiveCardExtensions/helloWorld/HelloWorldAdaptiveCardExtension.manifest.json"
+        }
+      ]
+    },
+    "image-card-adaptive-card-extension": {
+      "components": [
+        {
+          "entrypoint": "./lib/adaptiveCardExtensions/imageCard/ImageCardAdaptiveCardExtension.js",
+          "manifest": "./src/adaptiveCardExtensions/imageCard/ImageCardAdaptiveCardExtension.manifest.json"
+        }
+      ]
+    },
+    "scaffolded-adaptive-card-extension": {
+      "components": [
+        {
+          "entrypoint": "./lib/adaptiveCardExtensions/scaffolded/ScaffoldedAdaptiveCardExtension.js",
+          "manifest": "./src/adaptiveCardExtensions/scaffolded/ScaffoldedAdaptiveCardExtension.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/helloWorld/loc/{locale}.js",
+    "ImageCardAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/imageCard/loc/{locale}.js",
+    "ScaffoldedAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/scaffolded/loc/{locale}.js"
+  }
+}

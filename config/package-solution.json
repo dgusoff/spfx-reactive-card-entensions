@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-adaptive-cards-client-side-solution",
+    "id": "38b43fef-b35c-4619-9e6c-787e5296572b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-adaptive-cards description"
+      },
+      "longDescription": {
+        "default": "spfx-adaptive-cards description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-adaptive-cards Feature",
+        "description": "The feature that activates elements of the spfx-adaptive-cards solution.",
+        "id": "a9a12257-3960-44d4-a3c3-6ba667e99103",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-adaptive-cards.sppkg"
+  }
+}
